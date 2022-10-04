@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#btn-div{
+    background-color: gray;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    .logo{
+        img{
+            border-radius: 10px;
+            width: 30%;
+        }
+        span{
+            font-size: 20px;
+        }
+    }
+        #btn-send{
+            border-radius: 10px;
+            background-color: #ffc800ba ;
+            padding: 5px 10px;
+        } 
+}
+#Users{
+    background-color: gray; 
+    
+}
+
+.card{
+    background-color: #ffc800ba;
+    border-radius: 5px;
+    .card-img-top{
+        height: 350px;
+    }
+    
+}
